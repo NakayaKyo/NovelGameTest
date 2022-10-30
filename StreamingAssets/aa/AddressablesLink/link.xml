@@ -1,6 +1,8 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MainSystem.Editer.GameDataEditer" preserve="all" />
     <type fullname="NovelSystem.Editer.ScenarioEditer" preserve="all" />
+    <type fullname="MainSystem.Data.GameData" preserve="nothing" serialized="true" />
     <type fullname="NovelSystem.Data.ScenarioMaster" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
